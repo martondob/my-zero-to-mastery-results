@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+
+body {
+	background-color: #1b2146;
+}
+	
+h1 {
+	font-family: 'Gugi', sans-serif;
+	color: #fff;
+	width: 200px;
+	text-align: center;
+	margin: 5em auto 1em;
+	transition: transform 0.5s;
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+.robots {
+	.android {
+		    display: flex;
+		    flex-flow: column wrap;
+		    align-items: center;
+		    border-bottom: 3px solid #fff;
+	}
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #5f93e8;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0;
+	border-bottom: 10px solid #1b2146;
+	transition: all 0.7s;
+	.smiling {
+		margin: -12em auto 7em;
+		opacity: 0;
+		text-align: center;
+		transition: all 0.7s;
+		h3 {
+			font-family: 'Love Ya Like A Sister', cursive;
+			color: pink;
+			font-size: 2em;
+		}
+	}
+	&:hover {
+		border-radius: 200px 200px 100px 100px;
+		border-bottom: 10px solid pink;
+		transform: translateY(30px);
+		.smiling {
+			opacity: 1;
+		}
+	}
+} 
+
+.eyes {
+	
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex;
+	transition: all 0.7s ease-out;
+	&:hover {
+		.left_arm {
+			transform-origin: right top;
+			transform: rotate(70deg)
+		}
+		.right_arm {
+			transform-origin: left top;
+			transform: rotate(-70deg)
+		}
+	}
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px;
+	transition: all 0.7s ease-out;
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.lower_body { 
+	width: 200px;
+	display: flex;
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;
+	transition: all 0.1s linear;
+	&:hover {
+		transform: scaleY(0.1);
+	} 
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 80px; 
+	left: 140px; 
+}
+
+
+
+
+

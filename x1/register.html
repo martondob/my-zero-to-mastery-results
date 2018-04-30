@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+</head>
+<body>
+	<div class="form" style="display: block;margin: 0 auto;width: 300px;margin-top: 10em;">
+		<header>
+			<h1>Register</h1>
+		</header>
+		<!-- Use GET, not POST -->
+		<form method="GET">
+			First name: <input type="text" name="firstname">
+			<br>
+			Last name: <input type="text" name="lastname">
+			<br>
+			Email: <input type="email" name="email" required>
+			<br>
+			Password: <input type="Password" name="password" min="8">
+			<br>
+			Birthday: <input type="date" name="birthday">
+			<br>
+			Gender: 
+				<br>
+				<input type="radio" name="gender" value="male">Male
+				<br>
+				<input type="radio" name="gender" value="female">Female
+			<br>
+			Pets:
+			<br>
+			<input type="checkbox" name="cat"> Cat
+			<br>
+			<input type="checkbox" name="dog"> Dog
+			<br>
+			Cars
+			<br>
+			<select name="cars">
+				<option value="volvo" name="cars" value="volvo">Volvo</option>
+				<option value="audi" name="cars" value="audi">Audi</option>
+			</select>
+			<br>
+			<input type="submit" value="Register!">
+			<br>
+			<input type="reset">
+		</form>
+		<footer>made in Sátormapuszta</footer>
+	</div>
+</body>
+</html>

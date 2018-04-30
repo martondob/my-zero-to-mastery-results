@@ -1,0 +1,27 @@
+body {
+	background-image: url(bg.jpg);
+	background-size: cover;
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 3em;
+	color: white;
+	background-color: #ddd;
+	text-align: center;
+}
+
+p {
+	color: #fff;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	color: pink;
+}
+
+a, a:visited, a:active {
+	color: red;
+	text-decoration: none;
+}

@@ -1,0 +1,27 @@
+/*GLOBAL STYLES*/
+
+.fa-heart {
+	color: rgba(255,0,0,0.7);
+}
+
+ul.quiz_results {
+	list-style: none;
+	li {
+		&:before {
+			font-family: 'Font Awesome\ 5 Free';
+			margin:0 5px 0 -15px;
+			}
+		&.correct {
+			&:before {
+				content: '\f058';
+				color: green;
+			}
+		}
+		&.incorrect {
+			&:before {
+				content: '\f057';
+				color: red;
+			}
+		}
+	}
+}
