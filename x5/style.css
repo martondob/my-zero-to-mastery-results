@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Faster+One');
+
+
+body, html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+	background-color: #34404c;
+	background-image: url(bogomil-mihaylov-643393-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+    background-size: cover;
+}
+
+.title {
+	margin-top: 3rem;
+}
+
+.title h1{
+	text-align: center;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 5em;
+	color: #34404c;
+	margin-top: 1.5em;
+}
+
+a.btn {
+	font-family: 'Faster One', cursive;
+	color: #34404c;
+	font-size: 3rem;
+	background-color: #f3f3f3e6;
+	margin-top: 7em;
+	transition: all 0.2s;
+	padding: 0 0.5em;
+}
+
+a.btn:hover {
+	color: #34404c;
+	font-size: 3rem;
+	background-color: #fff;
+	padding: 0.3em 0.7em;
+}
+
+.photo_credit {
+	background-color:transparent;
+	color: rgba(255,255,255,0.4);
+	text-decoration:none;
+	padding:4px 6px;
+	font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	line-height:1.2;
+	float: right;
+	border-radius:3px;
+}
