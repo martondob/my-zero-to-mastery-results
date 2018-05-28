@@ -20,9 +20,19 @@ ul.main_list {
       font-weight: bold; }
   ul.main_list li.quiz ul li.quiz_question {
     margin: 1em 0;
-    font-size: 0.9em; }
+    font-size: 0.9em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    list-style: none; }
+    ul.main_list li.quiz ul li.quiz_question .quiz_question_number {
+      font-weight: bold;
+      margin-right: 1em;
+      color: #000; }
     ul.main_list li.quiz ul li.quiz_question ul.quiz_results {
-      list-style: none; }
+      list-style: none;
+      margin-left: 1em;
+      font-weight: normal;
+      color: #000; }
       ul.main_list li.quiz ul li.quiz_question ul.quiz_results li:before {
         font-family: 'Font Awesome\ 5 Free';
         margin: 0 5px 0 -15px; }

@@ -31,8 +31,19 @@ ul.main_list {
 			li.quiz_question {
 				margin: 1em 0;
 				font-size: 0.9em;
+				font-weight: bold;
+				color: rgba(0, 0, 0, 0.6);
+				list-style: none;
+				.quiz_question_number {
+					font-weight: bold;
+					margin-right: 1em;
+					color: #000;
+				}
 				ul.quiz_results {
 					list-style: none;
+					margin-left: 1em;
+					font-weight: normal;
+					color: #000;
 					li {
 						&:before {
 							font-family: 'Font Awesome\ 5 Free';
